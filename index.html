@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Appointment Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Set an appointment below:</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">Enter your Name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="description">Please describe your favorite food:</label>
+          <select class="form-control" id="beverage">
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Enter the date you are requesting:</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="start">Appointment start time:</label>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="end">Appointment end time:</label>
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit form.</button>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
